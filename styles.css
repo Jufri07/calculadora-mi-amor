@@ -1,6 +1,7 @@
 html {
   font-size: 65%;
   box-sizing: border-box;
+  background-color: plum;
 }
 
 *, *::before, *::after {
@@ -36,7 +37,7 @@ button {
   background-color: #fff;
   border-radius: 10px;
   border: 4px solid #4df944;
-  background-color: transparent;
+  background-color: gold;
   font-size: 2rem;
   color: #333;
 }
@@ -77,4 +78,5 @@ button:hover {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
   padding: 20px;
+  background-color: rgb(80, 77, 77);
 }
