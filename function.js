@@ -19,7 +19,7 @@ function inputDigit(digit) {
 
 function inputDecimal(dot) {
   if (calculator.waitingForSecondOperand === true) {
-    calculator.displayValue = '0.';
+    calculator.displayValue = '.';
     calculator.waitingForSecondOperand = false;
     return;
   }
